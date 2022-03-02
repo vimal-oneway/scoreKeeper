@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./asset/img/shuttlefav.png"
+      type="image/x-icon"
+    />
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="./asset/css/main.css" />
+  </head>
+  <body>
+    <div class="maincon">
+      <div class="container">
+        <div class="pingPong">
+          <img src="./asset/img/badminton.jpg" alt="racketImg" id="racketImg" />
+
+          <h1>Badminton Score Keeper</h1>
+        </div>
+        <div class="scoredisplay">
+          <h3>
+            POINTS
+            <span id="p1Score"> 0</span> To <span id="p2Score">0</span>
+          </h3>
+
+          <div class="scoreSelect">
+            <h4>Playing to</h4>
+            <select name="scoreLimit" id="scoreLimit">
+              <option value="0">-</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+            </select>
+          </div>
+
+          <h3>Use the buttons below to keep score</h3>
+        </div>
+        <div class="btnCon">
+          <button class="btn p1Btn" id="p1Btn">1 + Score</button>
+          <button class="btn p2Btn" id="p2Btn">1 + Score</button>
+          <button class="btn reset" id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="./asset/script/script.js"></script>
+  </body>
+</html>
